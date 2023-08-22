@@ -1,0 +1,26 @@
+{
+  "name": "quest-express-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^2.0.2",
+    "supertest": "^6.3.3"
+  }
+}
